@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Stephen-Eneji
-- 👀 I’m interested in Python App dev and Web dev
-- 🌱 I’m currently learning Kivy, atm
-- 📫 You can reach me on twitter @mr_eneji, or instagram @S_eneji
+- 👀 Web Developer and Learning Python for Software Engineering
+- 🌱 #365daysofcode in progress. I would to love to meet and interact with other programmers
+- 📫 You can reach me on twitter @mr_eneji, or instagram @heisenejii
 
 <!---
 Stephen-Eneji/Stephen-Eneji is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
