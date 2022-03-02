@@ -1,5 +1,5 @@
 #################
-def DIFFERENCE():
+def SUM():
     matrixTypeselector = input("Input 1 = 2x2 Matrix, 2 = 2x3 Matrix, 3 = 3x3 matrix, 4 = 3x2 Matrix: ")
     operationSelector = input("S FOR SUM, D FOR DIFFERENCE, P FOR PRODUCT: ")
     # SCRIPT FOR 2x2 MATRIX
@@ -35,16 +35,16 @@ def DIFFERENCE():
         m2_col2_num = float(m2_col2)
 
         if m1_row1.isdigit():
-            print(m1_row1_num - m2_row1_num)
+            print(m1_row1_num + m2_row1_num)
 
         if m1_row2.isdigit():
-            print(m1_row2_num - m2_row2_num)
+            print(m1_row2_num + m2_row2_num)
 
         if m1_col1.isdigit():
-            print(m1_col1_num - m2_col1_num)
+            print(m1_col1_num + m2_col1_num)
 
         if m2_col2.isdigit():
-            print(m1_col2_num - m2_col2_num)
+            print(m1_col2_num + m2_col2_num)
         else:
             print("Enter valid number")
 
@@ -106,24 +106,24 @@ def DIFFERENCE():
         m2_r3c2_num = float(m2_r3c2)
 
         if m1_r1c1.isdigit():
-            print(m1_r1c1_num - m2_r1c1_num)
+            print(m1_r1c1_num + m2_r1c1_num)
 
         if m1_r1c2.isdigit():
-            print(m1_r1c2_num - m2_r1c2_num)
+            print(m1_r1c2_num + m2_r1c2_num)
 
         # Row2
         if m1_r2c1.isdigit():
-            print(m1_r2c1_num - m2_r2c1_num)
+            print(m1_r2c1_num + m2_r2c1_num)
 
         if m1_r2c2.isdigit():
-            print(m1_r2c2_num - m2_r2c2_num)
+            print(m1_r2c2_num + m2_r2c2_num)
 
         # Row3
         if m1_r3c1.isdigit():
-            print(m1_r3c1_num - m2_r3c1_num)
+            print(m1_r3c1_num + m2_r3c1_num)
 
         if m1_r3c2.isdigit():
-            print(m1_r3c2_num - m2_r3c2_num)
+            print(m1_r3c2_num + m2_r3c2_num)
 
         else:
             print("Enter a valid number")
@@ -197,33 +197,33 @@ def DIFFERENCE():
         m2_r3c3_num = float(m2_r3c3)
 
         if m1_r1c1.isdigit():
-            print(m1_r1c1_num - m2_r1c1_num)
+            print(m1_r1c1_num + m2_r1c1_num)
 
         if m1_r1c2.isdigit():
-            print(m1_r1c2_num - m2_r1c2_num)
+            print(m1_r1c2_num + m2_r1c2_num)
 
         if m1_r1c3.isdigit():
-            print(m1_r1c3_num - m2_r1c3_num)
+            print(m1_r1c3_num + m2_r1c3_num)
 
         # Row2
         if m1_r2c1.isdigit():
-            print(m1_r2c1_num - m2_r2c1_num)
+            print(m1_r2c1_num + m2_r2c1_num)
 
         if m1_r2c2.isdigit():
-            print(m1_r2c2_num - m2_r2c2_num)
+            print(m1_r2c2_num + m2_r2c2_num)
 
         if m1_r2c3.isdigit():
-            print(m1_r2c3_num - m2_r2c3_num)
+            print(m1_r2c3_num + m2_r2c3_num)
 
         # Row3
         if m1_r3c1.isdigit():
-            print(m1_r3c1_num - m2_r3c1_num)
+            print(m1_r3c1_num + m2_r3c1_num)
 
         if m1_r3c2.isdigit():
-            print(m1_r3c1_num - m2_r3c1_num)
+            print(m1_r3c1_num + m2_r3c1_num)
 
         if m1_r3c3.isdigit():
-            print(m1_r3c3_num - m2_r3c3_num)
+            print(m1_r3c3_num + m2_r3c3_num)
 
         else:
             print("Enter a valid number")
@@ -280,23 +280,23 @@ def DIFFERENCE():
 
 
         if m1_r1c1.isdigit():
-            print(m1_r1c1_num - m2_r1c1_num)
+            print(m1_r1c1_num + m2_r1c1_num)
 
         if m1_r1c2.isdigit():
-            print(m1_r1c2_num - m2_r1c2_num)
+            print(m1_r1c2_num + m2_r1c2_num)
 
         if m1_r1c3.isdigit():
-            print(m1_r1c3_num - m2_r1c3_num)
+            print(m1_r1c3_num + m2_r1c3_num)
 
         # Row2
         if m1_r2c1.isdigit():
-            print(m1_r2c1_num - m2_r2c1_num)
+            print(m1_r2c1_num + m2_r2c1_num)
 
         if m1_r2c2.isdigit():
-            print(m1_r2c2_num - m2_r2c2_num)
+            print(m1_r2c2_num + m2_r2c2_num)
 
         if m1_r2c3.isdigit():
-            print(m1_r2c3_num - m2_r2c3_num)
+            print(m1_r2c3_num + m2_r2c3_num)
 
         else:
             print("Enter a valid number")
@@ -320,4 +320,4 @@ def DIFFERENCE():
 
 
     conditionsfortype()
-DIFFERENCE()
+SUM()
